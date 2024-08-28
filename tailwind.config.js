@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'arial-regular': ['Arial', 'sans-serif'], // Custom font
+        'arial-regular': ['Arial-Regular', 'sans-serif'], // Custom font
       },
     },
   },
