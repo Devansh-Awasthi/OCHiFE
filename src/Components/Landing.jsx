@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Landing() {
   return (
-    <div className='w-full h-screen bg-zinc-800'>
+    <div className='w-full h-[110%] bg-zinc-800'>
       <div className='text-white px-10 py-32 text-9xl tracking-tighter uppercase bold leading-[0.9]'>
         <h1>we create</h1>
         <div className='flex items-center'>
@@ -17,12 +17,12 @@ function Landing() {
           <div key={index} className='flex items-center'>
             <h3 className={
               index === 2
-                ? 'border-white p-2 border-[1px] rounded-full text-white uppercase text-lg ml-11 mr-2  hover:bg-white hover:text-black'
+                ? 'border-white p-2 border-[1px] rounded-full text-white uppercase text-lg ml-11 mr-2  hover:bg-white hover:text-black duration-300 ease-in-out'
                 : 'text-white text-lg ml-11 mr-11 '
-            }>
+                  }>
               {item}
             </h3>
-            {index === 2 && <GoArrowUpRight className='text-white m-1 h-10 w-10 border-white border-[1px] rounded-full hover:bg-white hover:text-black' />}
+            {index === 2 && <GoArrowUpRight className='text-white m-1 h-10 w-10 border-white border-[1px] rounded-full hover:bg-white hover:text-black duration-600 ease-out' />}
           </div>
         ))}
       </div>
