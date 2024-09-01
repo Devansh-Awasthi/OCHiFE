@@ -6,10 +6,11 @@ function Featured() {
       <h1 className="text-white text-[4vw] p-6">Featured projects</h1>
       <div className="border-zinc-600 border-[1px] mb-8"></div>
       <div className="flex relative justify-between h-[90vh] p-8 w-[100vw]">
+        
+        <div className="left max-h-fit w-[46vw]">
         <div className="absolute  text-[3vw] left-1/2 top-1/2 -translate-x-[50%] z-[99] -translate-y-[50%]">
           <h1>Cardboard Spaceship</h1>
         </div>
-        <div className="left max-h-fit w-[46vw]">
           <div className="head text-zinc-300 flex items-center mb-7">
             <div className="h-3 w-3 rounded-full bg-zinc-300 mr-5"></div>
             <h1 className="text-lg uppercase">Cardboard Spaceship</h1>
@@ -35,6 +36,9 @@ function Featured() {
           </div>
         </div>
         <div className="right h-full w-[46vw]">
+        <div className="absolute  text-[3vw] left-1/2 top-1/2 -translate-x-[50%] z-[99] -translate-y-[50%]">
+          <h1>AH2 & Matt Horn</h1>
+        </div>
           <div className="head text-zinc-300 flex items-center mb-7">
             <div className="h-3 w-3 rounded-full bg-zinc-300 mr-5"></div>
             <h1 className="text-lg uppercase">AH2 & Matt Horn</h1>
@@ -158,6 +162,7 @@ function Featured() {
           </div>
         </div>
       </div>
+      <button className="uppercase bg-zinc-400 pt-3 pb-3 p-6 rounded-full ml-[45%] mt-12 text-lg  text-black">view all case studies</button>
     </div>
   );
 }
