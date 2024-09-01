@@ -2,7 +2,7 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 function About() {
   return (
-    <div className="min-h-screen w-full translate-y-[-4%] rounded-lg bg-[#CDEA68] overflow-hidden">
+    <div className="min-h-screen w-full translate-y-[-4%] rounded-lg bg-[#dfea68] overflow-hidden">
       <p className="text-[4.3rem] pt-20 pl-16 pr-36 pb-28 leading-[4rem]">
         Ochi is a strategic presentation agency for forward-thinking businesses
         that need to <u>raise funds</u>,<u> sell products</u>,{" "}
