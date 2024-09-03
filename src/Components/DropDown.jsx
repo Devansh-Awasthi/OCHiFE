@@ -14,7 +14,7 @@ function DropDown() {
   const infArray = Array(4).fill(inf);
   // var [open,setopen] = useState(0);
   //  const toggleOpen = (a) => {
-  //   setopen(open);
+  //   setopen(a);
   // };
   return (
     <div className="min-h-screen w-full bg-[#27272A]">
