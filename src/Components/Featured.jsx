@@ -162,7 +162,7 @@ function Featured() {
           </div>
         </div>
       </div>
-      <button className="uppercase bg-zinc-400 pt-3 pb-3 p-6 rounded-full ml-[45%] mt-12 text-lg  text-black">view all case studies</button>
+      <button className="uppercase bg-gradient-to-b from-zinc-500 to-zins-900 hover:bg-gradient-to-t hover:from-zinc-700 hover:to-zinc-900 pt-3 pb-3 p-6 rounded-3xl ml-[45%] mt-12 text-lg  text-zinc-100 m-8 ">view all case studies</button>
     </div>
   );
 }

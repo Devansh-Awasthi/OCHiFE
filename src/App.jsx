@@ -5,6 +5,7 @@ import Marq from "./Components/Marq";
 import About from "./Components/About";
 import Eyes from "./Components/Eyes";
 import Featured from "./Components/Featured";
+import DropDown from "./Components/DropDown";
 function App() {
   return (
     <div className="h-screen w-full">
@@ -13,7 +14,8 @@ function App() {
       <Marq></Marq>
       <About></About>
       <Eyes></Eyes>
-      <Featured></Featured>
+    <Featured></Featured>
+<DropDown></DropDown>
     </div>
   );
 }
