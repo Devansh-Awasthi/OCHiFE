@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Eyes from "./Components/Eyes";
 import Featured from "./Components/Featured";
 import DropDown from "./Components/DropDown";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="h-screen w-full">
@@ -16,6 +17,7 @@ function App() {
       <Eyes></Eyes>
     <Featured></Featured>
 <DropDown></DropDown>
+<Footer></Footer>
     </div>
   );
 }
