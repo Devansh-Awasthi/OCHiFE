@@ -7,9 +7,14 @@ import Eyes from "./Components/Eyes";
 import Featured from "./Components/Featured";
 import DropDown from "./Components/DropDown";
 import Footer from "./Components/Footer";
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
+ 
+
+const locomotiveScroll = new LocomotiveScroll();
+
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full ">
       <NavBar></NavBar>
       <Landing></Landing>
       <Marq></Marq>

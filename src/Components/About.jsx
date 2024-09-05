@@ -2,7 +2,7 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 function About() {
   return (
-    <div className="min-h-screen w-full translate-y-[-4%] rounded-lg bg-[#dfea68] overflow-hidden">
+    <div data-scroll data-scroll-speed='-0.1' className="min-h-screen w-full translate-y-[-4%] rounded-lg bg-[#dfea68] pb-8 overflow-hidden">
       <p className="text-[4.3rem] pt-20 pl-16 pr-36 pb-28 leading-[4rem]">
         Ochi is a strategic presentation agency for forward-thinking businesses
         that need to <u>raise funds</u>,<u> sell products</u>,{" "}
@@ -48,7 +48,7 @@ function About() {
         </div>
         <img
           src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"
-          className="h-[100%] object-cover m-10 rounded-xl items-center w-[50%]"
+          className="h-[100%] object-cover m-10 mb-32 rounded-xl items-center w-[50%]"
         ></img>
       </div>
     </div>
