@@ -27,7 +27,7 @@ function Featured() {
     setIsHover6(a);
   }
   return (
-    <div data-scroll data-scroll-speed='-0.1' className="h-min-screen w-full bg-[#27272A]">
+    <div data-scroll data-scroll-speed='-0.1' className="h-min-screen overflow-x-hidden w-full bg-[#27272A]">
       <h1 className="text-white text-[4vw] p-6">Featured projects</h1>
       <div className="border-zinc-600 border-[1px] mb-8"></div>
       <div className="box1 flex relative justify-between h-[90vh] p-8 w-[100vw]"> 

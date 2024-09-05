@@ -6,7 +6,7 @@ function Landing() {
 
   return (
     <div data-scroll data-scroll-speed='-0.4' className='w-full h-[110%] bg-zinc-800'>
-      <div className='text-white px-10 py-32 text-9xl tracking-tighter uppercase bold leading-[0.9]'>
+      <div className='text-white px-10 py-32 text-9xl tracking-tighter uppercase bold leading-[0.9] overflow-x-hidden'>
         <h1>we create</h1>
         <div className='flex items-center'>
           <motion.img initial={{width:'0%'}} animate={{width:'8%'}} transition={{ease:[0.12, 0, 0.39, 0],duration:1}}  className='image rounded-md w-40 h-24' src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="d" />
