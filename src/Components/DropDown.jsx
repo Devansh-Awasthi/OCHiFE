@@ -19,14 +19,14 @@ function DropDown() {
   };
   console.log(open);
   return (
-    <div className="min-h-screen w-full pb-32 bg-[#27272A] overflow-hidden">
+    <div className="min-h-screen w-full pt-28 pb-32 bg-[#27272A] overflow-hidden">
       <h1 className="text-white pt-8 text-[4vw] p-6">Clients' reviews</h1>
       <div className="border-zinc-600 border-[1px] mb-8"></div>
       {infArray.map((item, key) => (
         <>
           <div key={key} className="box flex w-full h-fit justify-between">
             <div className="left flex justify-between h-[50%] w-[40%] ">
-              <h1 className="text-white text-xl ml-8">{item.name} </h1>
+              <h1 className="text-white text-xl ml-8 underline-animation white-underline">{item.name} </h1>
               {open == key && (
                 <div className="center h-full w-[50%] ">
                   <h1 className="text-white text-xl">Service:</h1>
@@ -60,7 +60,7 @@ function DropDown() {
               )}
             </div>
             <h1
-              onClick={() => toggleOpen(key)}
+              onClick={() => toggleOpen(key)} 
               className="mr-16 text-xl text-white"
             >
               READ

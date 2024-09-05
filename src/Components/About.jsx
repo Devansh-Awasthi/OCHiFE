@@ -30,10 +30,10 @@ function About() {
             S:
             <br></br>
             <br></br>
-            <h6 className="underline hover:underline-offset-4">Linkedin</h6>
-            <h6 className="underline hover:underline-offset-4">Instagram</h6>
-            <h6 className="underline hover:underline-offset-4">Behance</h6>
-            <h6 className="underline hover:underline-offset-4">Facebook</h6>
+            <h6 className=" underline-animation black-underline">Linkedin</h6><br></br>
+            <h6 className="underline-animation black-underline">Instagram</h6><br></br>
+            <h6 className="underline-animation black-underline">Behance</h6><br></br>
+            <h6 className="underline-animation black-underline">Facebook</h6><br></br>
           </div>
         </div>
       </div>

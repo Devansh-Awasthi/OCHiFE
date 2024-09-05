@@ -8,6 +8,7 @@ import Featured from "./Components/Featured";
 import DropDown from "./Components/DropDown";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from 'locomotive-scroll';
+import './App.css'
 function App() {
  
 

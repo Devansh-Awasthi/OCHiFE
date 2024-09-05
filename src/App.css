@@ -1,0 +1,34 @@
+/* Shared base styles for underline animation */
+.underline-animation {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .underline-animation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 0;
+    height: 1px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* White underline on hover */
+  .white-underline::after {
+    background-color: white;
+  }
+  
+  .white-underline:hover::after {
+    width: 100%;
+  }
+  
+  /* Black underline on hover */
+  .black-underline::after {
+    background-color: black;
+  }
+  
+  .black-underline:hover::after {
+    width: 100%;
+  }
+  
