@@ -12,7 +12,7 @@ useEffect(()=>{
     var dx=mX-window.innerWidth/2;
     var dy=mY-window.innerHeight/2;  
     var a=Math.atan2(dx, dy)*(180/Math.PI);
-    setAngle(a-180);
+    setAngle(a-160);
   })
 })
 
