@@ -43,7 +43,7 @@ function About() {
           <h1 className="text-[5vw] tracking-tighter">Our approach:</h1>
           <button className="flex justify-between items-center bg-slate-900 px-7 py-5 rounded-full text-white hover:bg-black">
             READ MORE
-            <GoArrowUpRight className="text-white ml-2 h-6 w-6 border-white border-[1px] rounded-full hover:bg-white hover:text-black duration-600 ease-out" />
+            <GoArrowUpRight  className="text-white ml-2 h-6 w-6 border-white border-[1px] rounded-full hover:bg-white hover:text-black duration-700 " />
           </button>
         </div>
         <img

@@ -26,7 +26,7 @@ function DropDown() {
         <>
           <div key={key} className="box flex w-full h-fit justify-between">
             <div className="left flex justify-between h-[50%] w-[40%] ">
-              <h1 className="text-white text-xl ml-8 underline-animation white-underline">{item.name} </h1>
+              <h1 className="text-white text-xl ml-8 ">{item.name} </h1>
               {open == key && (
                 <div className="center h-full w-[50%] ">
                   <h1 className="text-white text-xl">Service:</h1>
