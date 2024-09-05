@@ -17,7 +17,7 @@ useEffect(()=>{
 })
 
   return (
-            <div data-scroll data-scroll-speed='0.3' className="flex gap-5 absolute top-[35%] left-[35%] ">
+            <div data-scroll data-scroll-speed='-0.3' className="flex gap-5 absolute top-[35%] left-[35%] ">
           <div className="bg-zinc-200 h-64 relative w-64 rounded-full  ">
             <div className="bg-zinc-900 h-1/2 w-1/2 rounded-full absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               <div style={{transform:`translate(-50%, -50%) rotate(${angle}deg)`}} className="line h-7 w-full absolute  top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
